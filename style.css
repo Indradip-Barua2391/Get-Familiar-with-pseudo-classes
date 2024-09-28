@@ -1,0 +1,40 @@
+body {
+  font-family: Arial;
+  background-color: #0d1117;
+  color: #c9d1d9;
+}
+h1 {
+  color: #58a6ff;
+}
+
+a {
+  color: #8b949e;
+  text-decoration: none;
+}
+a:hover {
+  color: #ffd1df;
+  font-weight: bold;
+  font-size: 22px;
+}
+a::after {
+  content: " 🥵";
+}
+
+ul > li {
+  font-weight: bold;
+}
+
+ul li:hover {
+  background-color: #5188e1;
+}
+ul li:nth-child(3) {
+  color: #3e87d0;
+}
+ul li::before {
+  content: " 🎀";
+}
+
+p::firt-letter {
+  font-size: 50%;
+  color: #ffd1df;
+}
