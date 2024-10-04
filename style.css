@@ -1,14 +1,14 @@
 body {
   font-family: Arial;
-  background-color: #0d1117;
-  color: #c9d1d9;
+  background-color: #f5f5dc;
+  color: #c9d1d;
 }
 h1 {
-  color: #58a6ff;
+  color: #b21807;
 }
 
 a {
-  color: #8b949e;
+  color: #f0e68c;
   text-decoration: none;
 }
 a:hover {
@@ -25,10 +25,10 @@ ul > li {
 }
 
 ul li:hover {
-  background-color: #5188e1;
+  background-color: #c9d1d9;
 }
 ul li:nth-child(3) {
-  color: #3e87d0;
+  color: #a26659;
 }
 ul li::before {
   content: " 🎀";
@@ -36,5 +36,5 @@ ul li::before {
 
 p::firt-letter {
   font-size: 50%;
-  color: #ffd1df;
+  color: #aaaaaa;
 }
